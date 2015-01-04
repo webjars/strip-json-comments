@@ -85,8 +85,6 @@
                         </goals>
                         <configuration>
                             <target>
-                                <echo message="download archive" />
-                                <get src="${upstream.url}" dest="${project.build.directory}/${project.artifactId}.zip" />
                                 <echo message="unzip archive" />
                                 <unzip src="${project.build.directory}/v${upstreamVersion}.zip" dest="${project.build.directory}" />
 
