@@ -43,7 +43,7 @@
         <upstreamVersion>1.0.2</upstreamVersion>
         <upstream.url>https://github.com/sindresorhus/strip-json-comments</upstream.url>
         <extractDir>${project.build.directory}/strip-json-comments-${upstreamVersion}</extractDir>
-        <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstreamVersion}</destDir>
+        <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
     </properties>
 
     <build>
