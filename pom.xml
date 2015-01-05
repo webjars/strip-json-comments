@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>strip-json-comments</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.2-1-SNAPSHOT</version>
     <name>strip-json-comments</name>
     <description>WebJar for strip-json-comments</description>
     <url>http://webjars.org</url>
